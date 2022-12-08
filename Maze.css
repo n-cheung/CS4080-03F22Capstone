@@ -1,0 +1,155 @@
+html, body {
+    width: 100%; height: 100%;
+    margin: 0; padding: 0;
+    font-size: 20px;
+}
+
+#bg {
+    position: absolute;
+    margin: 0; padding: 10% 0 0;
+    height: 100%; width: 100%;
+    background-color: #274E13;
+    box-sizing: border-box;
+}
+#bg>div {
+    height: 100%; width: 100%;
+    background: rgb(196,210,108);
+    background: linear-gradient(0deg,rgba(196,210,108,1) 0%, rgba(39,78,19,1) 100%);
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    margin: 0; padding: 0;
+    width: 100%; height: 100%;
+}
+
+#top {
+    display: inline-block;
+    width: 100%; height: 6rem;
+    line-height: 6rem;
+    text-align: center;
+}
+#button {
+    padding: 0;
+
+    background: #a30036;
+    border-radius: 0.8rem;
+    border: none;
+
+    cursor: pointer;
+    outline-offset: 0.4rem;
+}
+.front {
+    display: block;
+    padding: 0.8rem 3rem;
+
+    background: #f0003c;
+    border-radius: 0.8rem;
+
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #ffffff;
+
+    transform: translateX(-0.01rem) translateY(-0.4rem);
+}
+#button:active .front {
+    transform: translateY(-0.05rem);
+}
+
+.wrapper {
+    display: inline-block;
+    height: calc(100% - 16rem); width: 100%;
+
+    text-align: center;
+}
+#reference {
+    display: inline-block;
+    top: 0; left: 0;
+    bottom: 0; right: 0;
+    width: 100%; height: 100%;
+}
+#holder {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto; padding: 0;
+    width: 0; height: 0;
+    background-color:#F3D332;
+}
+#canvas {
+    display: block;
+    margin: 0; padding: 0;
+    width: 100%; height: 100%;
+}
+
+
+#victory {
+    visibility: hidden;
+    position: absolute;
+    top: 0; left: 0;
+    margin: auto; padding: 0;
+
+    width: 100%;
+    height: 100%;
+
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+#victory>div {
+    position: absolute;
+    top: 0; left: 0;
+    bottom: 0; right: 0;
+    margin: auto; padding: 2rem;
+
+    width: 28rem;
+    height: 18rem;
+
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+}
+#victory>div>* {
+    position: relative;
+    display: block;
+}
+#victory h1 {
+    margin: 0;
+
+    font-size: 5rem;
+    line-height: 8rem;
+    font-weight: 700;
+}
+#victory h2 {
+    margin: 0;
+
+    font-size: 2rem;
+    line-height: 4rem;
+    height: 6.5rem;
+}
+
+#button2 {
+    margin: 0 auto; padding: 0;
+
+    background: #acacac;
+    border-radius: 0.8rem;
+    border: none;
+
+    cursor: pointer;
+    outline-offset: 0.4rem;
+}
+.front2 {
+    display: block;
+    padding: 0.8rem 3rem;
+
+    background: #ffffff;
+    border-radius: 0.8rem;
+
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #333333;
+
+    transform: translateX(-0.01rem) translateY(-0.4rem);
+}
+#button2:active .front2 {
+    transform: translateY(-0.05rem);
+}
